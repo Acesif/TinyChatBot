@@ -4,7 +4,9 @@ from huggingface_hub import login
 
 
 def setup():
-    """Load environment variables and login to Hugging Face."""
+    """
+    Load environment variables and login to Hugging Face.
+    """
     load_dotenv()
     token = os.getenv("token")
 
