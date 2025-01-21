@@ -4,7 +4,7 @@ from model_utils import load_model, load_tokenizer
 from setup import setup
 from config import DEVICE
 from fastapi import FastAPI
-from src.model import Request, Response
+from app.model import Request, Response
 
 setup()
 
